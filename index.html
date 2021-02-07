@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+
+    <!-- Bootstrap Js -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/996973c893.js"></script>
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&family=Roboto+Slab:wght@200;400;600;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <div class="container  pt-3">
+      <div class="row">
+        <div class="col-6 d-flex justify-content-start align-items-center">
+          <i class="fas fa-code fa-2x text-warning pb-3"></i>
+          <h5 class="d-inline pl-2 text-white">Portfolio</h5>
+        </div>
+        <div class="col-6 pt-2">
+          <div
+            class="row text-center p-0 d-flex justify-content-end align-items-center"
+          >
+            <div class="col-3">
+              <a href="#about" class="text-white navigation-link">About</a>
+            </div>
+            <div class="col-3">
+              <a href="#projects" class="text-white navigation-link"
+                >Projects</a
+              >
+            </div>
+            <div class="col-3">
+              <a href="#social-media" class="text-white navigation-link"
+                >Social Media</a>
+            </div>
+            <div class="col-3">
+              <a
+                href="https://github.com/harsh116/Resume"
+                target="_blank"
+                class="text-white navigation-link"
+                >Resume</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Container -->
+    <div class="main-container container mb-5">
+      <div class="row main_row">
+        <div class="col-12 mt-4 text-center">
+          <h2 class="text-white p-4">Hello, I'm</h2>
+          <h1 class="text-warning m-heading p-4">Harsh Panjwani</h1>
+          <h2 class="text-white p-4">Programmer</h2>
+        </div>
+       <!--  <div class="col-6">
+          <img
+            src="https://via.placeholder.com/554x1350.png/373c5e/FFFFFF"
+            class="img-fluid"
+          />
+        </div> -->
+      </div>
+    </div>
+
+    <!-- About Section -->
+    <div id="about" class="container about p-5">
+      <div class="row">
+        <div class="col-6">
+          <img src="./images/about_img.svg" class="img-fluid" />
+        </div>
+        <div class="col-6 pl-5 pt-5 pb-5 text-white">
+          <h3 class="text-warning">About Me</h3>
+          <h1 class="m-heading">Self-Taught Lone Programmer</h1>
+          <p>
+            Pursuing BTech in Computer Science from Galgotias University.</p>
+            <p>I am
+            <b class="text-warning">interested in </b>technical fields like</p>
+            <ul>
+              <li>Data Structures and Algorithms</li>
+              <li>Web Development</li>
+            </ul>
+            <p>My  <b class="text-warning"> favorite language</b> is C++ as it is statically typed and supports pointer to manage memory manually.</p>
+            <p>
+             I am  <b class="text-warning"> Chegg Q&A Expert</b>. I solve questions posted by students in Chegg website.
+          </p>
+          <br />
+          <p>
+            In my free time I like to  <b class="text-warning"> listen music </b> to refresh my mind and implement my ideas in structured way through
+             <b class="text-warning"> coding.</b>
+             
+          </p>
+          <hr class="hline">
+          <!-- <button class="btn btn-outline-warning">Learn More</button> -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Projects Section -->
+    <div id="projects" class="container mt-5 pt-5">
+      <h1 class="text-warning mb-3 pb-2">My Projects</h1>
+      <div class="row">
+        <div class="col-12 mb-5">
+          <div class="card">
+            <img
+              src="images/playlist.jpg"
+              style="height: 23rem;"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Personal Playlist</h5>
+              <p class="card-text">
+                Website containing some of my favorite video songs whose lyrics can be viewed in sidepanel when toggled.
+              </p>
+              <a href="https://github.com/harsh116/Personal-Playlist.github.io" target="_blank" class="btn btn-warning">See Project</a>
+            </div>
+          </div>
+        </div>
+        <div class=col-12><h2 class="text-warning mb-3 pb-2">Mini Projects</h2><h6 class="text-warning mb-3 pb-2">Below are projects made just for fun</h6></div>
+        <div class="col-6 mb-5">
+          <div class="card">
+            <img
+              src="images/startup.jpg"
+              class="card-img-top img-fluid"
+              alt="..."
+              style="height: 13rem;"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Startup page</h5>
+              <p class="card-text">
+                Startup Landing page to recruit members by prompting them to subscribe using their email address 
+              </p>
+              <a href="https://github.com/harsh116/Startup.github.io" target="_blank" class="btn btn-warning">See Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 mb-5">
+          <div class="card" >
+            <img
+              src="images/robot animation.jpg"
+              class="card-img-top robotimage mx-auto"
+              alt="..."
+              style="height: 13rem;"
+            />
+            <div class="card-body">
+              <h5 class="card-title">RoboToy</h5>
+              <p class="card-text">
+               Play with the robot friend by hovering mouse on different parts of robot.
+              </p><br>
+              <a href="https://github.com/harsh116/RoboToy.github.io" target="_blank" class="btn btn-warning">See Project</a>
+            </div>
+          
+       
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- Social Media Section -->
+    <div id="social-media" class="container-fluid">
+      <div class="container text-white py-5">
+        <h4 class="text-warning">Social Media</h4>
+        <h1 class="m-heading">Let's be friends</h1>
+        <div class="row pt-5">
+          <a class="col-6 media_link btn mx-auto hoverresponsive" href="https://www.linkedin.com/in/harsh-panjwani-414276143/" target="_blank">
+            <div class="row">
+              <div class="col-6 d-flex justify-content-start">
+                <h3 class="m-0 pt-2 text-white">LinkedIn</h3>
+              </div>
+              <div class="col-6 d-flex justify-content-end align-items-center">
+                <i class="fab fa-linkedin-in fa-2x text-secondary"></i>
+              </div>
+            </div>
+          </a>
+
+          <a class="col-6 media_link btn mx-auto hoverresponsive" href="https://github.com/harsh116" target="_blank">
+            <div class="row">
+              <div class="col-6 d-flex justify-content-start">
+                <h3 class="m-0 pt-2 text-white">Github</h3>
+              </div>
+              <div class="col-6 d-flex justify-content-end align-items-center">
+                <i class="fab fa-github fa-2x text-secondary"></i>
+              </div>
+            </div>
+          </a>
+
+         
+
+          
+            
+          </div>
+        </div>
+      </div>
+
+    <!-- Footer -->
+    <footer class="d-flex ">
+    <a class="media_link bg-warning btn mx-auto mt-2 mb-2" href="mailto:harshpanjwani116@gmail.com">
+            
+                <h3 class="m-0 pt-2 pr-2 text-dark d-inline">Contact Me</h3>
+              
+                <i class="fas fa-envelope fa-2x text-secondary d-inline"></i>
+          </a>
+    </footer>
+  </body>
+</html>
